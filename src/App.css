@@ -1,0 +1,12 @@
+.kalendar {
+	display: flex;
+	justify-content: space-evenly;
+	gap: 2rem;
+}
+
+@media screen and (max-width: 900px) {
+	.kalendar {
+		flex-direction: column;
+	}
+}
+
