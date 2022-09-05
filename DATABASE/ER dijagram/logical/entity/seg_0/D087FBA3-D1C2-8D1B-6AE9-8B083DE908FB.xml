@@ -1,0 +1,92 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="D087FBA3-D1C2-8D1B-6AE9-8B083DE908FB" name="KORISNIK_ODELJENJE">
+<createdBy>Racunar1</createdBy>
+<createdTime>2022-09-05 07:17:40 UTC</createdTime>
+<ownerDesignName>ER dijagram</ownerDesignName>
+<engineerTo>
+<item key="17CEF7F2-A14D-B13D-8699-9AA0EC6100FC" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="korisnik_id" id="D9844FD4-6629-645B-6A3F-56310BDBAD81">
+<createdBy>Racunar1</createdBy>
+<createdTime>2022-09-05 07:17:54 UTC</createdTime>
+<ownerDesignName>ER dijagram</ownerDesignName>
+<engineerTo>
+<item key="17CEF7F2-A14D-B13D-8699-9AA0EC6100FC" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="odeljenje_id" id="0DE79D33-630D-246B-1FDB-19167AC48F52">
+<createdBy>Racunar1</createdBy>
+<createdTime>2022-09-05 07:18:17 UTC</createdTime>
+<ownerDesignName>ER dijagram</ownerDesignName>
+<engineerTo>
+<item key="17CEF7F2-A14D-B13D-8699-9AA0EC6100FC" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id" id="7540C2A1-34AB-DC2E-79BD-7811240D2172">
+<createdBy>Racunar1</createdBy>
+<createdTime>2022-09-05 07:19:07 UTC</createdTime>
+<generatorID>E6249D4B-C8E4-F7AA-A334-B1841AB73094</generatorID>
+<ownerDesignName>ER dijagram</ownerDesignName>
+<engineerTo>
+<item key="17CEF7F2-A14D-B13D-8699-9AA0EC6100FC" value="true"/>
+</engineerTo>
+<referedAttribute>A270C32B-D898-CF9A-79C2-23470CCB7ABB</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id1" id="916C77C2-C648-AF89-8411-7ED02B526321">
+<createdBy>Racunar1</createdBy>
+<createdTime>2022-09-05 07:19:11 UTC</createdTime>
+<generatorID>52BE6020-4193-B37F-3FED-4E5F65B3D325</generatorID>
+<ownerDesignName>ER dijagram</ownerDesignName>
+<engineerTo>
+<item key="17CEF7F2-A14D-B13D-8699-9AA0EC6100FC" value="true"/>
+</engineerTo>
+<referedAttribute>D9CF99FD-7CA1-CF32-D506-78D7708B7566</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="A90F4E8C-2CB0-E8D3-7C27-43994F7CB725" name="KORISNIK_ODELJENJE PK">
+<createdBy>Racunar1</createdBy>
+<createdTime>2022-09-05 07:18:15 UTC</createdTime>
+<ownerDesignName>ER dijagram</ownerDesignName>
+<engineerTo>
+<item key="17CEF7F2-A14D-B13D-8699-9AA0EC6100FC" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>D9844FD4-6629-645B-6A3F-56310BDBAD81</attributeRef>
+<attributeRef>0DE79D33-630D-246B-1FDB-19167AC48F52</attributeRef>
+<attributeRef>7540C2A1-34AB-DC2E-79BD-7811240D2172</attributeRef>
+<attributeRef>916C77C2-C648-AF89-8411-7ED02B526321</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
