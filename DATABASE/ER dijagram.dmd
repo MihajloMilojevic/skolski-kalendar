@@ -1,8 +1,0 @@
-<?xml version = '1.0' encoding = 'UTF-8'?>
-<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="ER dijagram" id="4E5913DD-4823-E77D-15A4-A7E2B23C8768" version="3.5">
-<createdBy>Racunar1</createdBy>
-<createdTime>2022-09-05 07:14:23 UTC</createdTime>
-<ownerDesignName>ER dijagram</ownerDesignName>
-<capitalNames>false</capitalNames>
-<designId>4E5913DD-4823-E77D-15A4-A7E2B23C8768</designId>
-</OSDM_Design>
